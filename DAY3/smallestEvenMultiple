@@ -1,0 +1,8 @@
+class Solution(object):
+    def smallestEvenMultiple(self,num):
+        if num%2==0:
+            return num
+        else:
+            return num*2
+obj=Solution()
+print(obj.smallestEvenMultiple(5))
